@@ -1,6 +1,6 @@
-# Simple Dataframe
+# Progress bar
 
-Simple dataframe example as published on [Streamlit homepage](https://docs.streamlit.io/library/get-started/create-an-app).
+Implement a progress bar
 
 ## Setup
 
@@ -18,7 +18,3 @@ Simple dataframe example as published on [Streamlit homepage](https://docs.strea
    ```
    
 1. This should launch the web browser to <http://localhost:8501>, a web page with a sample set of streamlit demos.
-
-## Reference
-
-* [Streamlit Docs: Create an app](https://docs.streamlit.io/library/get-started/create-an-app)
