@@ -1,0 +1,13 @@
+{
+  "type" : "members",
+  "members" : [
+    {
+      "name" : "Alice",
+      "age" : 16
+    },
+    {
+      "name" : "Bob",
+      "age" : 24
+    }
+  ]
+}

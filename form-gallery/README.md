@@ -1,6 +1,6 @@
-# Progress bar
+# Form Gallery
 
-Implement a progress bar.
+A gallery of form components that are supported by streamlit.
 
 ## Setup
 
@@ -18,3 +18,7 @@ Implement a progress bar.
    ```
    
 1. This should launch the web browser to <http://localhost:8501>, a web page with a sample set of streamlit demos.
+
+# Reference
+
+* [Streamlit Docs: Input widgets](https://docs.streamlit.io/library/api-reference/widgets)

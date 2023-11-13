@@ -28,7 +28,15 @@ Assume `st` as a prefix for the package `streamlit`, ie. `import streamlit as st
 * Anytime something on the web page is updated, streamlit reruns the entire python script.
 * When there is an function associated to event handlers eg. `on_change` or `on_click` in a widget, the evetn 
   handler will br run before the rest of the script.
-* To speed things up, data or rendered content of a function (or event handler) can be cached bia the `@st.cache_data` decorator.
+
+### Caching
+
+* To speed things up, data or rendered content of a function (or event handler) can be cached via the `@st.cache_data` or 
+  `@st.cache_resource` decorator.
+* Use the `@st.cache_data` decorator for anything we can persist in the database eg. python primitive values, 
+  dataframes, values from api calls, etc.
+* Use the `@st.cache_resource` decorator for anything we can't persist in the database eg. ML models, database 
+  connections, etc.
 
 ### Content
 
